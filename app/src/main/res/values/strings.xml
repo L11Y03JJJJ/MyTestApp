@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UPTON_APP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--  用来给下拉框显示选择的文本信息  -->
+    <string-array name="test">
+        <item>基础问题</item>
+        <item>超级问题</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</PreferenceScreen>-->
+
+<!--  name**给这个访问路径起的名字 不能同名   path**临时访问的路径    -->
+<!--name指定路径的别名 path指定了路径 -->
+<paths>
+    <external-path
+        name="files_root"
+        path="Android/data/com.example.upton_app"/>
+    <external-path
+        name="external_storage_root"
+        path="."/>
+</paths>

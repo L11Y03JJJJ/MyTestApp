@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/gray"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/id_linearlayout_product_bottom"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_img_product_bottom"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/product_selector">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/id_textview_product_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="生产">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_linearlayout_equipmentapplication_bottom"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_img_equipmentapplication_bottom"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/equipmentapplication_selector">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/id_textview_equipmentapplication_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="设备应用">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_linearlayout_equipmentmanagement_bottom"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_img_equipmentmanagement_bottom"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/equipmentmanagement_selector">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/id_textview_equipmentmanagement_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="设备管理">
+
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/id_linearlayout_reportforms_bottom"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/id_img_reportforms_bottom"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/fourth_selector">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/id_textview_reportforms_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="智能报表">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
